@@ -1,0 +1,26 @@
+{
+  "name": "melitest",
+  "version": "1.0.0",
+  "description": "test práctico frontend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -w server.js server.js",
+    "build": "next build",
+    "start": "node server.js"
+  },
+  "author": "Carlos Manotas <carlosmanotas@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-plugin-styled-components": "^1.5.1",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "http-proxy-middleware": "^0.18.0",
+    "isomorphic-unfetch": "^2.0.0",
+    "next": "^6.0.3",
+    "nodemon": "^1.17.5",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "styled-components": "^3.2.6"
+  }
+}
